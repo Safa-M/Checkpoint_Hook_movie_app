@@ -1,0 +1,40 @@
+#plus-icon {
+  width: 30px;
+  height: 30px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.movieList {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+}
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  height: 100%;
+  padding: 1% 10% 10% 10%;
+  background-image: url("./p4iaEa4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p {
+  font-size: 15px;
+  font-weight: bold;
+}

@@ -1,0 +1,14 @@
+.search {
+  margin: 2.5px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid rgb(31, 30, 51);
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #bcb9e9;
+  background-image: url("flaticon_search-512.png");
+  background-position: 5px 5px;
+  background-size: 37px 37px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
