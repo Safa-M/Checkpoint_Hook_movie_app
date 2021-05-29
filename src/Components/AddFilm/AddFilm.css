@@ -16,6 +16,7 @@ input {
   border-radius: 4px;
   font-size: 16px;
 }
+
 .addbtn {
   width: 20%;
   box-sizing: border-box;
@@ -23,9 +24,10 @@ input {
   border: 2px solid rgb(139, 135, 196);
   border-radius: 4px;
   font-size: 16px;
+  display: inline-block;
 }
-.addbtn:hover {
-background-color: rgb(49, 52, 218);
-  border: 2px solid rgb(32, 24, 100);
 
+.addbtn:hover {
+  background-color: rgb(49, 52, 218);
+  border: 2px solid rgb(32, 24, 100);
 }

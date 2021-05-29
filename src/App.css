@@ -8,6 +8,8 @@ nav {
   height: 60px;
   width: 100%;
   background-color: transparent;
+  margin-top: 2%;
+  margin-bottom: 5%;
 }
 
 .movieList {
@@ -37,4 +39,26 @@ nav {
 p {
   font-size: 15px;
   font-weight: bold;
+}
+#back-icon {
+  width: 20px;
+  height: 20px;
+}
+.back-btn {
+  width: 20%;
+  box-sizing: border-box;
+  background-color: #081d79;
+  border: 2px solid rgb(139, 135, 196);
+  border-radius: 4px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 15px;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+.back-btn:hover {
+background-color: rgb(49, 52, 218);
+  border: 2px solid rgb(32, 24, 100);
+  color: rgb(255, 255, 255);
 }

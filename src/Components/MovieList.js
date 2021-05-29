@@ -10,7 +10,7 @@ const MovieList = ({ movieslist, searchValue, rating }) => {
         .filter(
           (el) =>
             el.title.toLowerCase().includes(searchValue.toLowerCase().trim()) &&
-          el.rating >= rating
+            el.rating >= rating
         )
         .map((newCard, i) => (
           <div key={i}>

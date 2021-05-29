@@ -1,5 +1,6 @@
 import React from "react";
 import "./MovieCard.css";
+import { Link } from "react-router-dom";
 
 const MovieCard = ({ newCard }) => {
   return (
@@ -16,9 +17,11 @@ const MovieCard = ({ newCard }) => {
         <div className="info">
           <h3>{newCard.title}</h3>
           <p>{newCard.description}</p>
-          <a href={newCard.trailer} target="_blank">
-            <button>See Trailer</button>
-          </a>
+          <button>
+            <Link to={`/${newCard.title}`} className="see-trailer">
+              SEE TRAILER
+            </Link>
+          </button>
         </div>
         <img src={newCard.poster} alt={newCard.title} />
         {newCard.children}

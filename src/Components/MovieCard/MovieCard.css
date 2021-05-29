@@ -66,6 +66,11 @@
   bottom: -250px;
   transition: 0.5s;
 }
+.see-trailer {
+  text-decoration: none;
+  color: rgb(6, 6, 34);
+  font-weight: bold;
+}
 
 .cover .info h3 {
   font-weight: bold;

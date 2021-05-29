@@ -7,15 +7,18 @@ const Filter = ({ rating, setRating }) => {
     for (let i = 1; i <= 5; i++) {
       if (i <= a) {
         staysarray.push(
-          <span style={{ color: "#fbe300" }} onClick={() => setRating(i)}>
-            ★
-          </span>
+            <span style={{ color: "#fbe300" }} onClick={() => setRating(i)}>
+              ★
+            </span>
         );
       } else {
         staysarray.push(
-          <span style={{ color: "#b9d6e9" }} onClick={() => setRating(i)}>
-            ★
-          </span>
+            <span
+              style={{ color: "#b9d6e9" }}
+              onClick={() => setRating(i)}
+            >
+              ★
+            </span>
         );
       }
     }
